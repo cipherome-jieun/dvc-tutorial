@@ -1,0 +1,12 @@
+md5: 2e9120e448c0b6d1ea9843c5da43163b
+cmd: python studentpredictor/create_dataset.py
+wdir: ..
+deps:
+- md5: 369d2347a3d68bf1e1ee0292227a56e5
+  path: studentpredictor/create_dataset.py
+outs:
+- md5: 5f2f16d08bc79a25938a066446b8e989.dir
+  path: assets/data
+  cache: true
+  metric: false
+  persist: false
